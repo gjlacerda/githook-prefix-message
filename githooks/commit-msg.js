@@ -1,5 +1,3 @@
 #!/bin/sh
 
-const sh = require('shelljs');
-
-sh.echo(`gui': '$(cat "$1") > "$1"`);
+require('fs').writeFileSync(process.env.GIT_PARAMS, 'some message edited');
