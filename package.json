@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preparecommitmsg": "node githooks/commit-msg.js"
+    "preparecommitmsg": "node githooks/preparecommitmsg.js"
   },
   "repository": {
     "type": "git",
