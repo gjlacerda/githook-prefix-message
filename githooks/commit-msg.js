@@ -8,3 +8,4 @@ const contents        = fs.readFileSync(messageFilePath);
 const message         = util.format('%s: %s', branchName, contents);
 
 fs.writeFileSync(messageFilePath, message);
+// teste
